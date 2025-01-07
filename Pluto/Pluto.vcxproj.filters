@@ -4,6 +4,9 @@
     <Filter Include="Pluto">
       <UniqueIdentifier>{79E2E30D-E5F6-0BBF-AE78-AF1E1A4C08F0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pluto\Event">
+      <UniqueIdentifier>{8A9AD16A-F64F-4A60-7F44-4437EBF84064}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Pluto.h" />
@@ -15,6 +18,12 @@
     </ClInclude>
     <ClInclude Include="Source\Pluto\EntryPoint.h">
       <Filter>Pluto</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pluto\Event\Event.h">
+      <Filter>Pluto\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pluto\Event\KeyEvent.h">
+      <Filter>Pluto\Event</Filter>
     </ClInclude>
     <ClInclude Include="Source\Pluto\Log.h">
       <Filter>Pluto</Filter>

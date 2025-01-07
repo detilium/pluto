@@ -12,9 +12,8 @@ namespace Pluto
 
 	void Application::Run()
 	{
-		while (true)
-		{
 
-		}
+
+		while (true);
 	}
 }
